@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Poppins');
+
+* {
+    box-sizing: border-box;    
+}
+
+html, body {
+	height: 100%;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #08a0e9;
+}
+
+/*
+.logo{
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+.logo{
+    /*max-height: 100%;*/
+    max-height: 10vmin;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+	width: 20%;
+	float: left;
+}
+
+figure img {
+	width: 100%;
+}
+
+figcaption {
+	text-align: right;
+}
+
+.app{
+    background-color: #E8F5FD;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.wrapper{
+    margin-left: 50px;
+    margin-right: 50px; 
+    max-width: 1080px;
+    margin: auto;
+    height: 60vh;
+}
+
+.imgwrapper{
+    max-height: 100%;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: 300; 
+}
+
+h1 { font-size: 3rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 2rem; line-height: 1.25; letter-spacing: -.1rem; }
+
+header{
+    height: 30vh;
+}
+
+footer{
+    background-color: #0084B4;
+    height: 10vh;
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1rem; }
+}
+
+/* Larger than phablet */
+@media (max-width: 720px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 1.5rem; }
+}

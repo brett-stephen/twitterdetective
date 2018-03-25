@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Detective</title>
+	<link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    
+    
+</head>
+<body>
+    
+    <header>
+    <div class="imgwrapper">
+        <img class="logo" src="img/logo.png">
+    </div>
+    <h1> Twitter Detective </h1>
+    <h2> the tweet inspector </h2>
+    </header>
+    
+    <div class = "wrapper">
+        <div class = "app">   
+        <p>Enter names in the fields, then click "Submit" to submit the form:</p>
+			<!-- <form id="form" action="/action_page.php"> -->
+            <form id="form" onsubmit="return false;">
+           @username: <input type="text" id ="user" name="username" value="person1"><br>
+		   
+		   <!-- <button id="b1" > submit!!! </button> -->
+			<input type="submit" value="Submit">
+            </form>
+			
+			<button id="b2" > check </button>
+			
+			<div id="div1">
+			<p id="p1">This is a paragraph.</p>
+			<p id="p2">This is another paragraph.</p>
+			</div>
+			
+			
+        </div>
+    </div>
+    
+    <footer>
+    <p>Copyright © 2018 Twitter Detective. All Rights Reserved.</p>
+    
+    </footer>
+    
+	<div id="results">
+	</div>
+		
+	<script type="text/javascript" src="js/scripts.js"></script>
+</body>	
+</html>
