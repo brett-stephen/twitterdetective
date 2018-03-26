@@ -4,10 +4,10 @@
 	 
 	// Set access tokens: https://dev.twitter.com/apps/
 	$settings = array(
-	    'oauth_access_token' => "975794383898296320-8wWoNtKdW8qmlUm5ujDKtSlvDWesXvh",
-	    'oauth_access_token_secret' => "woUSGT9jRUUtY5uVf7WfTpovOapiOh5d9WCa1TsqxxhAT",
-	    'consumer_key' => "PjLn4nIuwwdQhiv9tQj9YUdIW",
-	    'consumer_secret' => "D8j9CobSmSUE0WgA1uWg6BJVlW4mnari7ajQVudI0qVC9QgMd4"
+	    'oauth_access_token' => ".",
+	    'oauth_access_token_secret' => ".",
+	    'consumer_key' => ".",
+	    'consumer_secret' => "."
 	);
 	
 	$q = $_REQUEST["q"];
