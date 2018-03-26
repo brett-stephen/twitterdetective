@@ -20,35 +20,80 @@
     </header>
     
     <div class = "wrapper">
-        <div class = "app">   
-        <p>Enter names in the fields, then click "Submit" to submit the form:</p>
+        <div class = "app">
+            <h3> Input </h3>
+        <p>Enter the twitter name into the field, then click "Submit".</p>
 			<!-- <form id="form" action="/action_page.php"> -->
             <form id="form" onsubmit="return false;">
-           @username: <input type="text" id ="user" name="username" value="person1"><br>
+           <h6>@</h6><input type="text" id ="user" name="username" placeholder="username"><br>
 		   
-		   <!-- <button id="b1" > submit!!! </button> -->
-			<input type="submit" value="Submit">
+			<input type="submit" value="Submit" class = "button">
             </form>
 			
-			<button id="b2" > check </button>
-			
+            <!-- 
 			<div id="div1">
+            
+                
 			<p id="p1">This is a paragraph.</p>
 			<p id="p2">This is another paragraph.</p>
 			</div>
+            -->
 			
 			
+        </div>
+
+        <div class = "app" id="results">
+            <h3> Results </h3>
+            <p> This is what Twitter Detective was able to find...</p>
+            <div class = " wrap" >
+                <div class="grid_item item-1">
+
+                    <h4>Name</h4>
+                    <span class ="box" id="_name">Person</span>
+
+                    <h4>Location</h4>
+                    <span class ="box" id="_location" >Earth</span>
+                    
+                    <h4>Device of Choice</h4>
+                    <span class ="box" id="_device" >Technology</span>
+
+                    <h4>Most Active</h4>
+                    <span class ="box" id="_mostActive" >Time</span>
+                    
+                    <h4>Geo-enabled</h4>
+                    <span class ="box" id="_geoEnabled" >Geo-enabled</span>
+
+                </div>  
+                <div class="grid_item item-2">
+
+                    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                    
+                    <div id="avgLocation">
+                    <h4>Average Tweet Location</h4>
+                    <div id="map"></div>
+                    </div>
+                </div>
+
+                
+		    </div>
         </div>
     </div>
     
     <footer>
-    <p>Copyright © 2018 Twitter Detective. All Rights Reserved.</p>
+    <p>Copyright © 2018 <br>
+        Twitter Detective 
+    </p>
     
     </footer>
     
 	<div id="results">
 	</div>
-		
+    
+    
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMz5YNv8eS5zyaM0tkolvDO-m3ML-iBb4&callback=initMap">
+    </script>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>	
 	<script type="text/javascript" src="js/scripts.js"></script>
 </body>	
 </html>
