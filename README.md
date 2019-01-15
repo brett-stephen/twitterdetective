@@ -1,2 +1,2 @@
 # twitterdetective
-tweet parser using nlp.
+tweet parser and data visualization using JS and twitter API.
